@@ -17,9 +17,9 @@ const CustomQuery = (props) => {
     ...(andLarger ? {} : { maxWidth, }),
   };
 
-  const isWidthMatch = useMediaQuery(settings);
+  const isWidthMatched = useMediaQuery(settings);
 
-  return isWidthMatch ? children : null;
+  return isWidthMatched ? children : null;
 };
 
 export default CustomQuery;
