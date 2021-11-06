@@ -1,8 +1,10 @@
+import React from 'react';
+
 import CustomQuery from './CustomQuery.jsx';
 import {
   SCREEN_WIDTH_TABLET,
   SCREEN_WIDTH_LAPTOP,
-} from './constants.js';
+} from '../lib/constants.js';
 
 
 const Tablet = (props) => {

@@ -1,8 +1,10 @@
+import React from 'react';
+
 import CustomQuery from './CustomQuery.jsx';
 import {
   SCREEN_WIDTH_MOBILE,
   SCREEN_WIDTH_TABLET,
-} from './constants.js';
+} from '../lib/constants.js';
 
 
 const Mobile = (props) => {

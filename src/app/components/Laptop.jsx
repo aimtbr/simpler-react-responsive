@@ -1,8 +1,10 @@
+import React from 'react';
+
 import CustomQuery from './CustomQuery.jsx';
 import {
   SCREEN_WIDTH_LAPTOP,
   SCREEN_WIDTH_LAPTOP_L,
-} from '../constants.js';
+} from '../lib/constants.js';
 
 
 const Laptop = (props) => {

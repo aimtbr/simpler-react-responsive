@@ -1,4 +1,19 @@
-export { default as Mobile } from './Mobile.jsx';
-export { default as Tablet } from './Tablet.jsx';
-export { default as Laptop } from './Laptop.jsx';
-export { default as CustomQuery } from './CustomQuery.jsx';
+import CustomQuery from './CustomQuery.jsx';
+import Mobile from './Mobile.jsx';
+import Tablet from './Tablet.jsx';
+import Laptop from './Laptop.jsx';
+
+
+export const devices = {
+  CustomQuery,
+  Mobile,
+  Tablet,
+  Laptop,
+};
+
+export {
+  CustomQuery,
+  Mobile,
+  Tablet,
+  Laptop,
+};
