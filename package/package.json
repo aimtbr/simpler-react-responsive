@@ -1,7 +1,7 @@
 {
   "name": "simpler-react-responsive",
   "main": "index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Even simpler usage of react-responsive package.",
   "author": "Maxim Marchuk",
   "license": "MIT",
