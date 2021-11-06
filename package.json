@@ -1,13 +1,13 @@
 {
   "name": "simpler-react-responsive",
-  "main": "src/main.js",
-  "version": "1.0.0",
+  "main": "src/app/index.js",
   "description": "Even simpler usage of react-responsive package.",
   "author": "Maxim Marchuk",
   "license": "MIT",
   "scripts": {
     "build": "./node_modules/.bin/webpack --config webpack.prod.js",
-    "dev": "./node_modules/.bin/webpack serve --config webpack.dev.js"
+    "dev": "./node_modules/.bin/webpack serve --config webpack.dev.js",
+    "publish": "npm run build && npm publish ./package"
   },
   "dependencies": {
     "react": "^17.0.2",
@@ -28,10 +28,6 @@
     "webpack-cli": "^4.4.0",
     "webpack-dev-server": "^3.11.2"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aimtbr/simpler-react-responsive.git"
-  },
   "keywords": [
     "media-queries",
     "media-query",
@@ -39,11 +35,13 @@
     "react-responsive",
     "responsive"
   ],
-  "bugs": {
-    "url": "https://github.com/aimtbr/simpler-react-responsive/issues"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aimtbr/simpler-react-responsive.git"
   },
-  "homepage": "https://github.com/aimtbr/simpler-react-responsive#readme",
-  "files": [
-    "/dist"
-  ]
+  "bugs": {
+    "url": "https://github.com/aimtbr/simpler-react-responsive/issues",
+    "email": "aim.tbr.corp@gmail.com"
+  },
+  "homepage": "https://github.com/aimtbr/simpler-react-responsive#readme"
 }
