@@ -1,7 +1,7 @@
 {
   "name": "simpler-react-responsive",
   "main": "src/app/index.js",
-  "description": "Even simpler usage of react-responsive package.",
+  "description": "Even simpler usage of react-responsive package!",
   "author": "Maxim Marchuk",
   "license": "MIT",
   "scripts": {
