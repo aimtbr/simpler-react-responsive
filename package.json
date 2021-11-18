@@ -5,8 +5,8 @@
   "author": "Maxim Marchuk",
   "license": "MIT",
   "scripts": {
-    "build": "./node_modules/.bin/webpack --config webpack.prod.js",
-    "dev": "./node_modules/.bin/webpack serve --config webpack.dev.js",
+    "build": "npx webpack --config webpack.prod.js",
+    "dev": "npm run build && npx webpack serve --config webpack.dev.js",
     "publish": "npm run build && npm publish ./package"
   },
   "dependencies": {

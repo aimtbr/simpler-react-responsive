@@ -4,7 +4,7 @@ import {
   Mobile,
   Tablet,
   Laptop,
-} from '../../app/components';
+} from '../../../package/';
 
 import { TestDevice } from './TestDevice.jsx';
 

@@ -4,13 +4,14 @@ const common = require('./webpack.common.js');
 
 
 module.exports = (env, argv) => {
-  const mode = 'development';
+  const mode = 'production';
 
   return [
     {
       ...common,
+      externals: 'react',
       entry: {
-        index: './src/app/index.js'
+        index: './src/app/index.js',
       },
       mode,
       module: {
@@ -23,20 +24,6 @@ module.exports = (env, argv) => {
             use: ['babel-loader'],
           },
         ],
-      },
-      optimization: {
-        moduleIds: 'deterministic',
-        runtimeChunk: 'single',
-        splitChunks: {
-          chunks: 'all',
-          cacheGroups: {
-            vendor: {
-              test: /[\\/]node_modules[\\/]/,
-              name: 'vendors',
-              chunks: 'all',
-            },
-          },
-        },
       },
     },
   ];
