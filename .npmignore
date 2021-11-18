@@ -1,7 +1,5 @@
-**/node_modules/
-
 /package
-!/package/package.json
-!/package/README.md
 
-.git
+!/package/package.json
+!/package/index.js
+!/package/README.md
