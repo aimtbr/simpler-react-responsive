@@ -1,7 +1,7 @@
 **/node_modules/
 
-/package
+/package/**
 !/package/package.json
 !/package/README.md
 
-.git
+.git/

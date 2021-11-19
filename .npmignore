@@ -1,5 +1,3 @@
-/package
+/package/**
 
-!/package/package.json
 !/package/index.js
-!/package/README.md
