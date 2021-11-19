@@ -24,7 +24,7 @@ export const MyComponent = (props) => {
   return (
     <div>
       <Mobile andSmaller>
-        Display on Mobile and smaller (0px - 320px)
+        Display on Mobile and smaller (0px - 425px)
       </Mobile>
 
       <Mobile>
@@ -32,7 +32,7 @@ export const MyComponent = (props) => {
       </Mobile>
 
       <Mobile andLarger>
-        Display on Mobile and larger (425px - infinity)
+        Display on Mobile and larger (321px - infinity)
       </Mobile>
 
       <Tablet andSmaller>
@@ -44,7 +44,7 @@ export const MyComponent = (props) => {
       </Tablet>
 
       <Tablet andLarger>
-        Display on Tablet and larger (768px - infinity)
+        Display on Tablet and larger (426px - infinity)
       </Tablet>
 
       <Laptop andSmaller>
@@ -56,7 +56,7 @@ export const MyComponent = (props) => {
       </Laptop>
 
       <Laptop andLarger>
-        Display on Laptop and larger (1024px - infinity)
+        Display on Laptop and larger (769px - infinity)
       </Laptop>
     </div>
   );
@@ -64,7 +64,11 @@ export const MyComponent = (props) => {
 ```
 
 ## Author
-Maxim Marchuk
+Maxim Marchuk  
+
+## Contacts
+Email: maxim.marchuk.d.corp@gmail.com  
+Twitter: https://twitter.com/MaximMarchuk
 
 ## License
 MIT

@@ -1,7 +1,7 @@
 {
   "name": "simpler-react-responsive",
   "main": "index.js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Even simpler usage of react-responsive package!",
   "author": "Maxim Marchuk",
   "license": "MIT",
@@ -23,7 +23,7 @@
   },
   "bugs": {
     "url": "https://github.com/aimtbr/simpler-react-responsive/issues",
-    "email": "aim.tbr.corp@gmail.com"
+    "email": "maxim.marchuk.d.corp@gmail.com"
   },
   "homepage": "https://github.com/aimtbr/simpler-react-responsive#readme"
 }
