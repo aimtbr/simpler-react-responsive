@@ -1,4 +1,4 @@
-# simpler-react-responsive
+# [simpler-react-responsive](https://www.npmjs.com/package/simpler-react-responsive)
 ![npm](https://img.shields.io/npm/dm/simpler-react-responsive) ![npm bundle size](https://img.shields.io/bundlephobia/min/simpler-react-responsive) ![NPM](https://img.shields.io/npm/l/simpler-react-responsive)  
 ![npm](https://img.shields.io/npm/v/simpler-react-responsive)  
   
